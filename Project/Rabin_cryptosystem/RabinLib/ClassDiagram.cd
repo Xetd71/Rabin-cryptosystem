@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RabinLib.Rabin">
+    <Position X="1" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CQgEYAAAAQAgAAAUBiBAAIgAgnAAAAACiAACABCAEEA=</HashCode>
+      <FileName>Rabin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RabinLib.RabinEncoding">
+    <Position X="4" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAQAAAAAAEEAIAAgAAAAABAAIGAAAAAAAQAAAA=</HashCode>
+      <FileName>RabinEncoding.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Rabin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RabinLib.ProgressInfo">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAA=</HashCode>
+      <FileName>ProgressInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Rabin" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
