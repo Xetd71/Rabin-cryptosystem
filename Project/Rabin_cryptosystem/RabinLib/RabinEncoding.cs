@@ -6,7 +6,7 @@ namespace RabinLib
     class RabinEncoding : Encoding
     {
         byte[] encoding = new byte[11];
-        public RabinEncoding() : this(new byte[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}) { }
+        public RabinEncoding() : this(new byte[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }) { }
         public RabinEncoding(byte[] newEncoding)
         {
             if (newEncoding.Length != 11)
@@ -19,18 +19,6 @@ namespace RabinLib
                     if (newEncoding[i] == newEncoding[j])
                         throw new ArgumentException("Неверные значения", "Один из элементов равен другому");
             newEncoding.CopyTo(encoding, 0);
-        }
-
-        public Rabin Rabin
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
         }
 
         /// <summary>

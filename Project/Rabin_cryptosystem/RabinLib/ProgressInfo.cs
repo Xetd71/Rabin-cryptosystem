@@ -23,17 +23,5 @@ namespace RabinLib
             value = newValue;
             maximum = newMaximum;
         }
-
-        public Rabin Rabin
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
     }
 }
